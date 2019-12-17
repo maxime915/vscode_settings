@@ -1,0 +1,99 @@
+{
+// making life easier
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggestSelection": "first",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    // complicated one to rememeber
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, AllowShortIfStatementsOnASingleLine: true, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4 }",
+    // custom theme
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "panel.background": "#000000",
+        "menu.background": "#000000",
+        "badge.background": "#272727",
+        "input.background": "#272727",
+        "button.background": "#272727",
+        "sideBar.background": "#000000",
+        "tab.activeBackground": "#000000",
+        "tab.inactiveBackground": "#272727",
+        "sideBar.dropBackground": "#000000",
+        // "sideBar.border": "#555555",
+        "sideBar.foreground": "#ffffff",
+        "sideBarSectionHeader.background": "#000000",
+        // "sideBarSectionHeader.border": "#ff0000",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "sideBarTitle.foreground": "#ffffff",
+        "activityBar.activeBackground": "#000000",
+        "activityBar.background": "#000000",
+        "tab.hoverBackground": "#272727",
+        "checkbox.background": "#000000",
+        "dropdown.background": "#272727",
+        "list.dropBackground": "#000000",
+        "terminal.background": "#000000",
+        // "selection.background": "#505050",
+        "editorPane.background": "#000000",
+        "welcomePage.background": "#000000",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.inactiveBackground": "#000000",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.border": "#000000",
+        "titleBar.background": "#000000",
+        "statusBar.activeBackground": "#000000",
+        "statusBar.inactiveBackground": "#000000",
+        "statusBar.activeForeground": "#000000",
+        "statusBar.inactiveForeground": "#000000",
+        "statusBar.border": "#000000",
+        "statusBar.background": "#001a63",
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#5b8996",
+        "variables": "#9CDCFE",
+        "types": "#57F8D8", // class definition
+        "strings": "#7DEB4A",
+        "numbers": "#BFDDAF",
+        "keywords": "#FF84F5",
+        "functions": "#FDE49E",
+        "textMateRules": [
+            {
+                "scope": "keyword", // java imports
+                "settings": {
+                    "foreground": "#559BD4"
+                }
+            },
+            {
+                "scope": "entity.name.function", // methods
+                "settings": {
+                    "foreground": "#FDE49E"
+                }
+            },
+            {
+                "scope": "storage.modifier", // private static synchronized etc
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "storage.type.primitive.array.java", // int void double etc
+                "settings": {
+                    "foreground": "#57F8D8"
+                }
+            },
+            {
+                "scope": "storage.type.java", // class reference (not definition)
+                "settings": {
+                    "foreground": "#57F8D8"
+                }
+            },
+            {
+                "scope": "storage.type.object.array.java", // Object array
+                "settings": {
+                    "foreground": "#42b49d"
+                }
+            }
+        ],
+    }
+}
